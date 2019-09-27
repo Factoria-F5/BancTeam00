@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('offer', 'OfferController');
+Route::resource('beneficiary', 'BeneficiaryController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
