@@ -84,7 +84,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Pont Solidari
+                    <img src="{{ asset('images/logo_pontsolidari.jpg')}}" width="600" alt="Pont Solidari">
                 </div>
 
                 <div class="links">
@@ -93,6 +93,13 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="bg-dark text-white">
+                <p>Lorem ipsum dolor sit.</p>
+
+            </div>
+        </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
