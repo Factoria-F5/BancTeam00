@@ -64,6 +64,18 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .btn-primary {
+                color: #fff;
+                background-color: #F7941e;
+                border-color: #F7941e;
+                }
+            
+             .btn-primary:hover {
+                color: #fff;
+                background-color: rgb(248, 169, 72);
+                border-color: rgb(248, 169, 72);
+                }
         </style>
     </head>
     <body>
@@ -88,8 +100,8 @@
                 </div>
 
                 <div class="links">
-                    <button class="btn btn-outline-info text-info font-weight-bold" type="submit">Vull donar material</button>
-                    <button class="btn btn-outline-info text-info font-weight-bold" type="submit">Necessito material</button>
+                    <button class="btn btn-primary" type="submit">Vull donar material</button>
+                    <button class="btn btn-primary" type="submit">Necessito material</button>
                 </div>
             </div>
         </div>
