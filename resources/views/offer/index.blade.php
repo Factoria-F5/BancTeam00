@@ -93,6 +93,9 @@
                       @csrf
                       @method('DELETE')
 <<<<<<< develop
+<<<<<<< develop
+=======
+>>>>>>> Last Update Front
 
                       <!-- Button trigger modal 
 <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" >
@@ -124,8 +127,11 @@
 
 
 
+<<<<<<< develop
 =======
 >>>>>>> Update Front Blade
+=======
+>>>>>>> Last Update Front
                       <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
