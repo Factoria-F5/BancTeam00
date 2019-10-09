@@ -88,8 +88,9 @@
                 </div>
 
                 <div class="links">
-                    <button class="btn btn-outline-info text-info font-weight-bold" type="submit">Vull donar material</button>
-                    <button class="btn btn-outline-info text-info font-weight-bold" type="submit">Necessito material</button>
+                    <a href="{{ url('/offer') }}"><button  class="btn btn-outline-primary" type="submit">Vull donar material</button></a>
+                    <button class="btn btn-outline-info" type="submit">Vull donar material <a href="{{ url('/offer') }}"></a>
+                    <button class="btn btn-outline-info" type="submit">Necessito material</button>
                 </div>
             </div>
         </div>
