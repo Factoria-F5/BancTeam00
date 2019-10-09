@@ -1,3 +1,4 @@
+<<<<<<< develop
 @extends('base')
 @extends('layouts.app')
 
@@ -32,6 +33,12 @@
     </div>
 </div>
 @endsection
+=======
+
+
+
+@extends('base')
+>>>>>>> Update Pruebas
 
 @section('main')
 
@@ -62,6 +69,10 @@
     <div class="form-group"><label for="limitDate">limitDate</label><input class="form-control" type="date" name="limitDate"></div>
     <div class="form-group"><label for="beneficiary">beneficiary</label><input class="form-control" type="text" name="beneficiary"></div>
     <div class="form-group"><label for="companyOffer">companyOffer</label><input class="form-control" type="text" name="companyOffer"></div>
+<<<<<<< develop
     <button type="submit" class="btn btn-outline-primary">Add offer</button>
+=======
+    <button type="submit" class="btn btn-primary-outline">Add offer</button>
+>>>>>>> Update Pruebas
     </form>
 @endsection
