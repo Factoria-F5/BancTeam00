@@ -100,8 +100,14 @@
                 </div>
 
                 <div class="links">
+<<<<<<< develop
                     <button class="btn btn-primary" type="submit">Vull donar material</button>
                     <button class="btn btn-primary" type="submit">Necessito material</button>
+=======
+                    <a href="{{ url('/offer') }}"><button  class="btn btn-outline-primary" type="submit">Vull donar material</button></a>
+                    <button class="btn btn-outline-info" type="submit">Vull donar material <a href="{{ url('/offer') }}"></a>
+                    <button class="btn btn-outline-info" type="submit">Necessito material</button>
+>>>>>>> Update Pruebas
                 </div>
             </div>
         </div>

@@ -45,6 +45,7 @@ class OfferController extends Controller
             'limitDate'=>$request->get('limitDate'),
             'beneficiary'=>$request->get('beneficiary'),
             'companyOffer'=>$request->get('companyOffer'),
+          
         ]);
         $offer->save();
         return redirect('/offer')->with('success','Offer saved!');
