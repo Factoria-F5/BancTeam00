@@ -9,16 +9,10 @@
                 <div class="card-header">Dashboard</div>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                    <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
+                    <a class="nav-link active" href="{{ url('/offer') }}">Ofertes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaris</a>
                   </li>
                 </ul>
                 <div class="card-body">
@@ -27,7 +21,7 @@
                             {{ session('status') }}
                         </div>
                     
-                    You are logged in!
+                    Estàs ingresat!
                     @endif
                 </div>
             </div>
