@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Dashboard Benecficiary List</div>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
                     <a class="nav-link" href="{{ url('/offer') }}">Offers</a>
@@ -15,11 +15,9 @@
                     <a class="nav-link active" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Home</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
+                 
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -40,7 +38,7 @@
     <div class="col-sm-12">
         <h1 class="display-3">Beneficiaries</h1>
         <div>
-            <a style="margin: 19px;" href="{{ route('beneficiary.create')}}" class="btn btn-primary">New beneficiary</a>
+            <a style="margin: 19px;" href="{{ route('beneficiary.create')}}" class="btn btn-outline-primary">New beneficiary</a>
         </div>     
       <table class="table table-striped">
         <thead>
@@ -74,13 +72,13 @@
                 <td>{{$beneficiary->phone}}</td>
                 <td>{{$beneficiary->email}}</td>
                 <td>
-                    <a href="{{ route('beneficiary.edit',$beneficiary->id)}}" class="btn btn-primary">Edit</a>
+                    <a href="{{ route('beneficiary.edit',$beneficiary->id)}}" class="btn btn-outline-primary">Edit</a>
                 </td>
                 <td>
                     <form action="{{ route('beneficiary.destroy', $beneficiary->id)}}" method="post">
                       @csrf
                       @method('DELETE')
-                      <button class="btn btn-danger" type="submit">Delete</button>
+                      <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
             </tr>
