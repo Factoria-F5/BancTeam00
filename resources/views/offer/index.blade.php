@@ -80,6 +80,37 @@
                     <form action="{{ route('offer.destroy', $offer->id)}}" method="post">
                       @csrf
                       @method('DELETE')
+
+                      <!-- Button trigger modal 
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" >
+  Delete
+</button> -->
+
+<!-- Modal
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Warning !!!</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+<h4>Be careful about deleting a record</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline-danger">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+
                       <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
