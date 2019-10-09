@@ -15,9 +15,17 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
+=======
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+>>>>>>> Update Front Blade
                 </ul>
                 <div class="card-body">
                     @if (session('status'))

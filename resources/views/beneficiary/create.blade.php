@@ -15,9 +15,17 @@
                     <a class="nav-link active" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
+=======
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+>>>>>>> Update Front Blade
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -73,6 +81,9 @@
     <div class="form-group"><label for="phone">phone</label><input class="form-control" type="integer" name="phone"></div>
     <div class="form-group"><label for="email">email</label><input class="form-control" type="text" name="email"></div>
     <button type="submit" class="btn btn-outline-primary">Add beneficiary</button>
+<<<<<<< develop
+>>>>>>> Update Front Blade
+=======
 >>>>>>> Update Front Blade
     </form>
 @endsection

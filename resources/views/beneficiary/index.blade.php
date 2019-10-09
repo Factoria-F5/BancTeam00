@@ -17,7 +17,13 @@
 <<<<<<< develop
 =======
                   <li class="nav-item">
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                 
+>>>>>>> Update Front Blade
+=======
+                    <a class="nav-link" href="#">Home</a>
                   </li>
                  
 >>>>>>> Update Front Blade

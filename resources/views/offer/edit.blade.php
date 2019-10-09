@@ -15,7 +15,11 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
+=======
+                    <a class="nav-link" href="#">Home</a>
+>>>>>>> Update Front Blade
                   </li>
                 </ul>
                 <div class="card-body">

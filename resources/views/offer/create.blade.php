@@ -1,4 +1,5 @@
 <<<<<<< develop
+<<<<<<< develop
 @extends('base')
 @extends('layouts.app')
 
@@ -39,6 +40,42 @@
 
 @extends('base')
 >>>>>>> Update Pruebas
+=======
+@extends('base')
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">Dashboard Create New Offer</div>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    
+                    You are logged in!
+                    @endif
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+>>>>>>> Update Front Blade
 
 @section('main')
 
@@ -70,9 +107,13 @@
     <div class="form-group"><label for="beneficiary">beneficiary</label><input class="form-control" type="text" name="beneficiary"></div>
     <div class="form-group"><label for="companyOffer">companyOffer</label><input class="form-control" type="text" name="companyOffer"></div>
 <<<<<<< develop
+<<<<<<< develop
     <button type="submit" class="btn btn-outline-primary">Add offer</button>
 =======
     <button type="submit" class="btn btn-primary-outline">Add offer</button>
 >>>>>>> Update Pruebas
+=======
+    <button type="submit" class="btn btn-outline-primary">Add offer</button>
+>>>>>>> Update Front Blade
     </form>
 @endsection

@@ -19,11 +19,15 @@
                   </li>
                   <li class="nav-item">
 <<<<<<< develop
+<<<<<<< develop
                     <a class="nav-link" href="#">Home</a>
 >>>>>>> Update Front Blade
 =======
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
 >>>>>>> Update
+=======
+                    <a class="nav-link" href="#">Home</a>
+>>>>>>> Update Front Blade
                   </li>
                   
                 </ul>
@@ -88,6 +92,7 @@
                     <form action="{{ route('offer.destroy', $offer->id)}}" method="post">
                       @csrf
                       @method('DELETE')
+<<<<<<< develop
 
                       <!-- Button trigger modal 
 <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" >
@@ -119,6 +124,8 @@
 
 
 
+=======
+>>>>>>> Update Front Blade
                       <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
