@@ -6,14 +6,22 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Dashboard Offer List</div>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
                     <a class="nav-link active" href="{{ url('/offer') }}">Ofertes</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaris</a>
+=======
+                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+>>>>>>> Update Front Blade
+                  </li>
+                  
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -34,7 +42,7 @@
     <div class="col-sm-12">
         <h1 class="display-3">Offers</h1>
         <div>
-            <a style="margin: 19px;" href="{{ route('offer.create')}}" class="btn btn-primary">New offer</a>
+            <a style="margin: 19px;" href="{{ route('offer.create')}}" class="btn btn-outline-primary">New offer</a>
         </div>     
       <table class="table table-striped">
         <thead>
@@ -70,13 +78,13 @@
                 <td>{{$offer->beneficiary}}</td>
                 <td>{{$offer->companyOffer}}</td>
                 <td>
-                    <a href="{{ route('offer.edit',$offer->id)}}" class="btn btn-primary">Edit</a>
+                    <a href="{{ route('offer.edit',$offer->id)}}" class="btn btn-outline-primary">Edit</a>
                 </td>
                 <td>
                     <form action="{{ route('offer.destroy', $offer->id)}}" method="post">
                       @csrf
                       @method('DELETE')
-                      <button class="btn btn-danger" type="submit">Delete</button>
+                      <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
             </tr>

@@ -1,4 +1,40 @@
 @extends('base')
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">Dashboard Create New Beneficiary</div>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/offer') }}">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{{ url('/beneficiary') }}">Beneficiaries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    
+                    You are logged in!
+                    @endif
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
 
 @section('main')
 
@@ -21,6 +57,7 @@
     <h1>Aquest és el formulari per registrarse com a beneficiari</h1>
     <form method="post" action="{{route('beneficiary.store')}}">
     @csrf
+<<<<<<< develop
     <div class="form-group"><label for="name">Nom</label><input class="form-control" type="text" name="name"></div>
     <div class="form-group"><label for="surname">Cognoms</label><input class="form-control" type="text" name="surname"></div>
     <div class="form-group"><label for="dni">DNI</label><input class="form-control" type="char" name="dni"></div>
@@ -29,5 +66,15 @@
     <div class="form-group"><label for="phone">Telèfon</label><input class="form-control" type="integer" name="phone"></div>
     <div class="form-group"><label for="email">eCorreu electrònic</label><input class="form-control" type="text" name="email"></div>
     <button type="submit" class="btn btn-primary-outline">Registrar-se</button>
+=======
+    <div class="form-group"><label for="name">Name</label><input class="form-control" type="text" name="name"></div>
+    <div class="form-group"><label for="surname">Surname</label><input class="form-control" type="text" name="surname"></div>
+    <div class="form-group"><label for="dni">Dni</label><input class="form-control" type="char" name="dni"></div>
+    <div class="form-group"><label for="birthday">birthday</label><input class="form-control" type="date" name="birthday"></div>
+    <div class="form-group"><label for="adress">adress</label><input class="form-control" type="text" name="adress"></div>
+    <div class="form-group"><label for="phone">phone</label><input class="form-control" type="integer" name="phone"></div>
+    <div class="form-group"><label for="email">email</label><input class="form-control" type="text" name="email"></div>
+    <button type="submit" class="btn btn-outline-primary">Add beneficiary</button>
+>>>>>>> Update Front Blade
     </form>
 @endsection
