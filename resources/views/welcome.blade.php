@@ -103,6 +103,7 @@
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
+<<<<<<< develop
                     <button class="btn btn-primary" type="submit">Vull donar material</button>
                     <button class="btn btn-primary" type="submit">Necessito material</button>
 =======
@@ -123,6 +124,10 @@
                     <button class="btn btn-outline-info" type="submit">Vull donar material <a href="{{ url('/offer') }}"></a>
                     <button class="btn btn-outline-info" type="submit">Necessito material</button>
 >>>>>>> Update Pruebas
+=======
+                    <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
+                    <a href="{{ url('/beneficiary/creaate') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
+>>>>>>> Update
                 </div>
             </div>
         </div>

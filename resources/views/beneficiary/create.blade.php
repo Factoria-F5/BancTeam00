@@ -16,11 +16,15 @@
                   </li>
                   <li class="nav-item">
 <<<<<<< develop
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
 =======
                     <a class="nav-link" href="#">Home</a>
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+>>>>>>> Update
                   </li>
 <<<<<<< develop
                   <li class="nav-item">

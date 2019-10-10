@@ -18,12 +18,16 @@
 =======
                   <li class="nav-item">
 <<<<<<< develop
+<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
 >>>>>>> Update Front Blade
 =======
                     <a class="nav-link" href="#">Home</a>
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+>>>>>>> Update
                   </li>
                  
 >>>>>>> Update Front Blade

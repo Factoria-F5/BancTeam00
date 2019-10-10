@@ -58,7 +58,7 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                 </ul>
                 <div class="card-body">
