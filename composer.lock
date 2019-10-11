@@ -697,6 +697,7 @@
         {
             "name": "laravel/ui",
 <<<<<<< develop
+<<<<<<< develop
             "version": "v1.1.1",
             "source": {
                 "type": "git",
@@ -709,16 +710,24 @@
                 "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
 =======
             "version": "v1.1.0",
+=======
+            "version": "v1.1.1",
+>>>>>>> Up dt2
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/ui.git",
-                "reference": "311219ce77022000745403bf95c4585cbad101a0"
+                "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< develop
                 "url": "https://api.github.com/repos/laravel/ui/zipball/311219ce77022000745403bf95c4585cbad101a0",
                 "reference": "311219ce77022000745403bf95c4585cbad101a0",
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+=======
+                "url": "https://api.github.com/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+                "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+>>>>>>> Up dt2
                 "shasum": ""
             },
             "require": {
@@ -763,10 +772,14 @@
                 "ui"
             ],
 <<<<<<< develop
+<<<<<<< develop
             "time": "2019-10-11T12:16:52+00:00"
 =======
             "time": "2019-10-08T13:19:35+00:00"
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+=======
+            "time": "2019-10-11T12:16:52+00:00"
+>>>>>>> Up dt2
         },
         {
             "name": "league/flysystem",
