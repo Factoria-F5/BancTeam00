@@ -111,8 +111,12 @@
 >>>>>>> Update Pruebas
 =======
                     <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
+<<<<<<< develop
                     <a href="{{ url('/beneficiary/creaate') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
 >>>>>>> Update
+=======
+                    <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
+>>>>>>> Update2
                 </div>
             </div>
         </div>
