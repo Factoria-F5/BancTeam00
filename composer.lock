@@ -471,6 +471,7 @@
         {
             "name": "laravel/framework",
 <<<<<<< develop
+<<<<<<< develop
             "version": "v6.3.0",
             "source": {
                 "type": "git",
@@ -483,16 +484,24 @@
                 "reference": "80914c430fb5e49f492812d704ba6aeec03d80a2",
 =======
             "version": "v6.2.0",
+=======
+            "version": "v6.3.0",
+>>>>>>> Update composer
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cacce5a77fa94793cf25345d67387632134d75dd"
+                "reference": "80914c430fb5e49f492812d704ba6aeec03d80a2"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< develop
                 "url": "https://api.github.com/repos/laravel/framework/zipball/cacce5a77fa94793cf25345d67387632134d75dd",
                 "reference": "cacce5a77fa94793cf25345d67387632134d75dd",
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+=======
+                "url": "https://api.github.com/repos/laravel/framework/zipball/80914c430fb5e49f492812d704ba6aeec03d80a2",
+                "reference": "80914c430fb5e49f492812d704ba6aeec03d80a2",
+>>>>>>> Update composer
                 "shasum": ""
             },
             "require": {
@@ -626,10 +635,14 @@
                 "laravel"
             ],
 <<<<<<< develop
+<<<<<<< develop
             "time": "2019-10-15T13:38:24+00:00"
 =======
             "time": "2019-10-08T12:50:06+00:00"
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+=======
+            "time": "2019-10-15T13:38:24+00:00"
+>>>>>>> Update composer
         },
         {
             "name": "laravel/tinker",
@@ -784,6 +797,7 @@
         {
             "name": "league/flysystem",
 <<<<<<< develop
+<<<<<<< develop
             "version": "1.0.57",
             "source": {
                 "type": "git",
@@ -796,16 +810,24 @@
                 "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
 =======
             "version": "1.0.56",
+=======
+            "version": "1.0.57",
+>>>>>>> Update composer
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "90e3f83cb10ef6b058d70f95267030e7a6236518"
+                "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< develop
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/90e3f83cb10ef6b058d70f95267030e7a6236518",
                 "reference": "90e3f83cb10ef6b058d70f95267030e7a6236518",
 >>>>>>> Update Comp
+=======
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
+                "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
+>>>>>>> Update composer
                 "shasum": ""
             },
             "require": {
@@ -877,10 +899,14 @@
                 "storage"
             ],
 <<<<<<< develop
+<<<<<<< develop
             "time": "2019-10-16T21:01:05+00:00"
 =======
             "time": "2019-10-12T13:05:59+00:00"
 >>>>>>> Update Comp
+=======
+            "time": "2019-10-16T21:01:05+00:00"
+>>>>>>> Update composer
         },
         {
             "name": "monolog/monolog",
