@@ -3009,6 +3009,7 @@
         },
         {
             "name": "facade/flare-client-php",
+<<<<<<< HEAD
 <<<<<<< develop
             "version": "1.1.0",
             "source": {
@@ -3032,6 +3033,18 @@
                 "url": "https://api.github.com/repos/facade/flare-client-php/zipball/608c2be3157b09f1868ca97ea4ddf3434ee83d63",
                 "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63",
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+=======
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facade/flare-client-php.git",
+                "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/608c2be3157b09f1868ca97ea4ddf3434ee83d63",
+                "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63",
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -3072,6 +3085,7 @@
                 "flare",
                 "reporting"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
             "time": "2019-09-27T14:54:17+00:00"
         },
@@ -3088,6 +3102,8 @@
                 "url": "https://api.github.com/repos/facade/ignition/zipball/40461a1f680171876c186dfff419b2a4c892995c",
                 "reference": "40461a1f680171876c186dfff419b2a4c892995c",
 =======
+=======
+>>>>>>> uploadPruebas2
             "time": "2019-10-07T19:15:46+00:00"
         },
         {
@@ -3100,6 +3116,7 @@
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
 <<<<<<< develop
                 "url": "https://api.github.com/repos/facade/ignition/zipball/dc56111b19e160236084dc6ab460e9c08912ecac",
                 "reference": "dc56111b19e160236084dc6ab460e9c08912ecac",
@@ -3108,6 +3125,10 @@
                 "url": "https://api.github.com/repos/facade/ignition/zipball/862cbc2dfffa1fa28b47822a116e5b2e03b421db",
                 "reference": "862cbc2dfffa1fa28b47822a116e5b2e03b421db",
 >>>>>>> Update Comp
+=======
+                "url": "https://api.github.com/repos/facade/ignition/zipball/862cbc2dfffa1fa28b47822a116e5b2e03b421db",
+                "reference": "862cbc2dfffa1fa28b47822a116e5b2e03b421db",
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -3165,6 +3186,7 @@
                 "laravel",
                 "page"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
             "time": "2019-09-27T16:49:08+00:00"
@@ -3174,6 +3196,9 @@
 =======
             "time": "2019-10-13T10:42:06+00:00"
 >>>>>>> Update Comp
+=======
+            "time": "2019-10-13T10:42:06+00:00"
+>>>>>>> uploadPruebas2
         },
         {
             "name": "facade/ignition-contracts",
