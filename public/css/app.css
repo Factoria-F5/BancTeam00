@@ -13,7 +13,7 @@
   --purple: #9561e2;
   --pink: #f66d9b;
   --red: #e3342f;
-  --orange: #f7941e;
+  --orange: #f6993f;
   --yellow: #ffed4a;
   --green: #38c172;
   --teal: #4dc0b5;
@@ -72,7 +72,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #fcfcf8;
 }
 
 [tabindex="-1"]:focus {
@@ -2562,14 +2562,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #3490dc;
-  border-color: #3490dc;
+  background-color: #F7941e;
+  border-color: #F7941e;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #227dc7;
-  border-color: #2176bd;
+  background-color: rgb(248, 169, 72);
+  border-color: rgb(248, 169, 72);
 }
 
 .btn-primary:focus,
@@ -2580,8 +2580,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #3490dc;
-  border-color: #3490dc;
+  background-color: #F7941e;
+  border-color: #F7941e;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -2974,7 +2974,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-info {
   color: #6cb2eb;
-  border-color: #6cb2eb;
+  border-color: #F7941e;
 }
 
 .btn-outline-info:hover {
@@ -5153,7 +5153,7 @@ a.badge:focus {
 a.badge-primary:hover,
 a.badge-primary:focus {
   color: #fff;
-  background-color: #2176bd;
+  background-color: #F7941e;
 }
 
 a.badge-primary:focus,
