@@ -470,8 +470,11 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
             "version": "v6.3.0",
             "source": {
                 "type": "git",
@@ -482,6 +485,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/80914c430fb5e49f492812d704ba6aeec03d80a2",
                 "reference": "80914c430fb5e49f492812d704ba6aeec03d80a2",
+<<<<<<< HEAD
 =======
             "version": "v6.2.0",
 =======
@@ -502,6 +506,8 @@
                 "url": "https://api.github.com/repos/laravel/framework/zipball/80914c430fb5e49f492812d704ba6aeec03d80a2",
                 "reference": "80914c430fb5e49f492812d704ba6aeec03d80a2",
 >>>>>>> Update composer
+=======
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -634,6 +640,7 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
             "time": "2019-10-15T13:38:24+00:00"
@@ -643,6 +650,9 @@
 =======
             "time": "2019-10-15T13:38:24+00:00"
 >>>>>>> Update composer
+=======
+            "time": "2019-10-15T13:38:24+00:00"
+>>>>>>> uploadPruebas2
         },
         {
             "name": "laravel/tinker",
@@ -709,8 +719,11 @@
         },
         {
             "name": "laravel/ui",
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
             "version": "v1.1.1",
             "source": {
                 "type": "git",
@@ -721,6 +734,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
                 "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+<<<<<<< HEAD
 =======
             "version": "v1.1.0",
 =======
@@ -741,6 +755,8 @@
                 "url": "https://api.github.com/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
                 "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
 >>>>>>> Up dt2
+=======
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -784,6 +800,7 @@
                 "laravel",
                 "ui"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
             "time": "2019-10-11T12:16:52+00:00"
@@ -813,6 +830,13 @@
 =======
             "version": "1.0.57",
 >>>>>>> Update composer
+=======
+            "time": "2019-10-11T12:16:52+00:00"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "1.0.57",
+>>>>>>> uploadPruebas2
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
@@ -820,6 +844,7 @@
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
 <<<<<<< develop
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/90e3f83cb10ef6b058d70f95267030e7a6236518",
                 "reference": "90e3f83cb10ef6b058d70f95267030e7a6236518",
@@ -828,6 +853,10 @@
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
                 "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
 >>>>>>> Update composer
+=======
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
+                "reference": "0e9db7f0b96b9f12dcf6f65bc34b72b1a30ea55a",
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -898,6 +927,7 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
             "time": "2019-10-16T21:01:05+00:00"
@@ -907,6 +937,9 @@
 =======
             "time": "2019-10-16T21:01:05+00:00"
 >>>>>>> Update composer
+=======
+            "time": "2019-10-16T21:01:05+00:00"
+>>>>>>> uploadPruebas2
         },
         {
             "name": "monolog/monolog",
@@ -991,8 +1024,11 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
             "version": "2.25.2",
             "source": {
                 "type": "git",
@@ -1003,6 +1039,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/443fe5f1498147e0fbc792142b5dc43e2e8a533f",
                 "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+<<<<<<< HEAD
 =======
             "version": "2.25.1",
 =======
@@ -1023,6 +1060,8 @@
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/443fe5f1498147e0fbc792142b5dc43e2e8a533f",
                 "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f",
 >>>>>>> Update Comp
+=======
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -1076,6 +1115,7 @@
                 "datetime",
                 "time"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
             "time": "2019-10-14T14:18:59+00:00"
@@ -1085,6 +1125,9 @@
 =======
             "time": "2019-10-14T14:18:59+00:00"
 >>>>>>> Update Comp
+=======
+            "time": "2019-10-14T14:18:59+00:00"
+>>>>>>> uploadPruebas2
         },
         {
             "name": "nikic/php-parser",
@@ -3129,6 +3172,10 @@
         },
         {
             "name": "facade/flare-client-php",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> uploadPruebas2
 <<<<<<< develop
             "version": "1.1.0",
             "source": {
@@ -3152,6 +3199,21 @@
                 "url": "https://api.github.com/repos/facade/flare-client-php/zipball/608c2be3157b09f1868ca97ea4ddf3434ee83d63",
                 "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63",
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+<<<<<<< HEAD
+=======
+=======
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facade/flare-client-php.git",
+                "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/608c2be3157b09f1868ca97ea4ddf3434ee83d63",
+                "reference": "608c2be3157b09f1868ca97ea4ddf3434ee83d63",
+>>>>>>> uploadPruebas2
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -3192,6 +3254,10 @@
                 "flare",
                 "reporting"
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> uploadPruebas2
 <<<<<<< develop
             "time": "2019-09-27T14:54:17+00:00"
         },
@@ -3208,12 +3274,20 @@
                 "url": "https://api.github.com/repos/facade/ignition/zipball/40461a1f680171876c186dfff419b2a4c892995c",
                 "reference": "40461a1f680171876c186dfff419b2a4c892995c",
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> uploadPruebas2
+>>>>>>> uploadPruebas2
             "time": "2019-10-07T19:15:46+00:00"
         },
         {
             "name": "facade/ignition",
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
             "version": "1.11.2",
             "source": {
                 "type": "git",
@@ -3222,6 +3296,10 @@
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> uploadPruebas2
 <<<<<<< develop
                 "url": "https://api.github.com/repos/facade/ignition/zipball/dc56111b19e160236084dc6ab460e9c08912ecac",
                 "reference": "dc56111b19e160236084dc6ab460e9c08912ecac",
@@ -3231,6 +3309,7 @@
                 "reference": "862cbc2dfffa1fa28b47822a116e5b2e03b421db",
 >>>>>>> Update Comp
 =======
+<<<<<<< HEAD
             "version": "1.11.1",
 =======
             "version": "1.11.2",
@@ -3254,6 +3333,11 @@
                 "reference": "862cbc2dfffa1fa28b47822a116e5b2e03b421db",
 >>>>>>> Update Comp
 >>>>>>> Update Comp
+=======
+                "url": "https://api.github.com/repos/facade/ignition/zipball/862cbc2dfffa1fa28b47822a116e5b2e03b421db",
+                "reference": "862cbc2dfffa1fa28b47822a116e5b2e03b421db",
+>>>>>>> uploadPruebas2
+>>>>>>> uploadPruebas2
                 "shasum": ""
             },
             "require": {
@@ -3311,6 +3395,7 @@
                 "laravel",
                 "page"
             ],
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
@@ -3319,22 +3404,35 @@
 >>>>>>> gitflow-feature-stash: uploadPruebas2
 =======
 >>>>>>> Update Comp
+=======
+<<<<<<< HEAD
+<<<<<<< develop
+<<<<<<< develop
+>>>>>>> uploadPruebas2
             "time": "2019-09-27T16:49:08+00:00"
 =======
             "time": "2019-10-08T07:36:31+00:00"
 >>>>>>> gitflow-feature-stash: uploadPruebas2
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
 =======
             "time": "2019-10-13T10:42:06+00:00"
 >>>>>>> Update Comp
 =======
+<<<<<<< HEAD
 >>>>>>> gitflow-feature-stash: uploadPruebas2
 =======
 =======
             "time": "2019-10-13T10:42:06+00:00"
 >>>>>>> Update Comp
 >>>>>>> Update Comp
+=======
+            "time": "2019-10-13T10:42:06+00:00"
+>>>>>>> uploadPruebas2
+>>>>>>> uploadPruebas2
         },
         {
             "name": "facade/ignition-contracts",

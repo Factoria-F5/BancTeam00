@@ -100,6 +100,7 @@
                 </div>
 
                 <div class="links">
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
 <<<<<<< develop
@@ -132,6 +133,10 @@
 =======
                     <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
 >>>>>>> Update2
+=======
+                    <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
+                    <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
+>>>>>>> uploadPruebas2
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
+=======
+>>>>>>> uploadPruebas2
 @extends('base')
 @extends('layouts.app')
 
@@ -34,6 +37,7 @@
     </div>
 </div>
 @endsection
+<<<<<<< HEAD
 =======
 
 
@@ -77,6 +81,9 @@
 @endsection
 >>>>>>> Update Front Blade
 
+=======
+
+>>>>>>> uploadPruebas2
 @section('main')
 
 <div class="row">
@@ -106,6 +113,7 @@
     <div class="form-group"><label for="limitDate">limitDate</label><input class="form-control" type="date" name="limitDate"></div>
     <div class="form-group"><label for="beneficiary">beneficiary</label><input class="form-control" type="text" name="beneficiary"></div>
     <div class="form-group"><label for="companyOffer">companyOffer</label><input class="form-control" type="text" name="companyOffer"></div>
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
     <button type="submit" class="btn btn-outline-primary">Add offer</button>
@@ -115,5 +123,8 @@
 =======
     <button type="submit" class="btn btn-outline-primary">Add offer</button>
 >>>>>>> Update Front Blade
+=======
+    <button type="submit" class="btn btn-outline-primary">Add offer</button>
+>>>>>>> uploadPruebas2
     </form>
 @endsection

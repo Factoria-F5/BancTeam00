@@ -15,6 +15,7 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
@@ -24,6 +25,9 @@
 =======
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
 >>>>>>> Update
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+>>>>>>> uploadPruebas2
                   </li>
                 </ul>
                 <div class="card-body">

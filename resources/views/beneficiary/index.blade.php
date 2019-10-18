@@ -17,6 +17,7 @@
 <<<<<<< develop
 =======
                   <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
@@ -31,6 +32,11 @@
                   </li>
                  
 >>>>>>> Update Front Blade
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                 
+>>>>>>> uploadPruebas2
                 </ul>
                 <div class="card-body">
                     @if (session('status'))

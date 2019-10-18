@@ -15,6 +15,7 @@
                     <a class="nav-link active" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
@@ -34,6 +35,11 @@
 =======
                  
 >>>>>>> Last Update Front
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                 
+>>>>>>> uploadPruebas2
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -89,9 +95,12 @@
     <div class="form-group"><label for="phone">phone</label><input class="form-control" type="integer" name="phone"></div>
     <div class="form-group"><label for="email">email</label><input class="form-control" type="text" name="email"></div>
     <button type="submit" class="btn btn-outline-primary">Add beneficiary</button>
+<<<<<<< HEAD
 <<<<<<< develop
 >>>>>>> Update Front Blade
 =======
 >>>>>>> Update Front Blade
+=======
+>>>>>>> uploadPruebas2
     </form>
 @endsection

@@ -15,6 +15,7 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
+<<<<<<< HEAD
 <<<<<<< develop
 <<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
@@ -34,6 +35,11 @@
 =======
                  
 >>>>>>> Last Update Front
+=======
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                 
+>>>>>>> uploadPruebas2
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
