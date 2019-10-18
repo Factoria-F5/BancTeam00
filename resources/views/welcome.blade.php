@@ -64,18 +64,6 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-            .btn-primary {
-                color: #fff;
-                background-color: #F7941e;
-                border-color: #F7941e;
-                }
-            
-             .btn-primary:hover {
-                color: #fff;
-                background-color: rgb(248, 169, 72);
-                border-color: rgb(248, 169, 72);
-                }
         </style>
     </head>
     <body>
@@ -100,43 +88,8 @@
                 </div>
 
                 <div class="links">
-<<<<<<< HEAD
-<<<<<<< develop
-<<<<<<< develop
-<<<<<<< develop
-<<<<<<< develop
-                    <button class="btn btn-primary" type="submit">Vull donar material</button>
-                    <button class="btn btn-primary" type="submit">Necessito material</button>
-=======
-                    <a href="{{ url('/offer') }}"><button  class="btn btn-outline-primary" type="submit">Vull donar material</button></a>
-                    <button class="btn btn-outline-info" type="submit">Vull donar material <a href="{{ url('/offer') }}"></a>
-                    <button class="btn btn-outline-info" type="submit">Necessito material</button>
->>>>>>> Update Pruebas
-=======
-                    <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
-<<<<<<< develop
-                    <a href="{{ url('/beneficiary/creaate') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
->>>>>>> Update
-=======
-                    <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
->>>>>>> Update2
-=======
-                    <a href="{{ url('/offer') }}"><button  class="btn btn-outline-primary" type="submit">Vull donar material</button></a>
-                    <button class="btn btn-outline-info" type="submit">Vull donar material <a href="{{ url('/offer') }}"></a>
-                    <button class="btn btn-outline-info" type="submit">Necessito material</button>
->>>>>>> Update Pruebas
-=======
-                    <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
-<<<<<<< develop
-                    <a href="{{ url('/beneficiary/creaate') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
->>>>>>> Update
-=======
-                    <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
->>>>>>> Update2
-=======
                     <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
                     <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
->>>>>>> uploadPruebas2
                 </div>
             </div>
         </div>

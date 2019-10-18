@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Registre') }}</div>
 
                 <div class="card-body">
-                    <h4>Registra un compte</h4>
+                    <h4>> Registra un compte</h4>
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -91,7 +91,7 @@
                             </div>
                         </div>
 
-                        <h4>Dades de l'Entitat</h4>
+                        <h4>> Dades de l'Entitat</h4>
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Nom de la Entitat *') }}</label>

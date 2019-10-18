@@ -15,31 +15,9 @@
                     <a class="nav-link active" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< develop
-<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
-=======
-                    <a class="nav-link" href="#">Home</a>
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
->>>>>>> Update
-                  </li>
-<<<<<<< develop
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
->>>>>>> Update Front Blade
-=======
-                 
->>>>>>> Last Update Front
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
-                  </li>
-                 
->>>>>>> uploadPruebas2
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -74,19 +52,9 @@
 
 
 
-    <h1>Aquest és el formulari per registrarse com a beneficiari</h1>
+    <h1>Esto es el formulario de beneficiaries</h1>
     <form method="post" action="{{route('beneficiary.store')}}">
     @csrf
-<<<<<<< develop
-    <div class="form-group"><label for="name">Nom</label><input class="form-control" type="text" name="name"></div>
-    <div class="form-group"><label for="surname">Cognoms</label><input class="form-control" type="text" name="surname"></div>
-    <div class="form-group"><label for="dni">DNI</label><input class="form-control" type="char" name="dni"></div>
-    <div class="form-group"><label for="birthday">Any de naixement</label><input class="form-control" type="date" name="birthday"></div>
-    <div class="form-group"><label for="adress">Adreça</label><input class="form-control" type="text" name="adress"></div>
-    <div class="form-group"><label for="phone">Telèfon</label><input class="form-control" type="integer" name="phone"></div>
-    <div class="form-group"><label for="email">eCorreu electrònic</label><input class="form-control" type="text" name="email"></div>
-    <button type="submit" class="btn btn-primary-outline">Registrar-se</button>
-=======
     <div class="form-group"><label for="name">Name</label><input class="form-control" type="text" name="name"></div>
     <div class="form-group"><label for="surname">Surname</label><input class="form-control" type="text" name="surname"></div>
     <div class="form-group"><label for="dni">Dni</label><input class="form-control" type="char" name="dni"></div>
@@ -95,12 +63,5 @@
     <div class="form-group"><label for="phone">phone</label><input class="form-control" type="integer" name="phone"></div>
     <div class="form-group"><label for="email">email</label><input class="form-control" type="text" name="email"></div>
     <button type="submit" class="btn btn-outline-primary">Add beneficiary</button>
-<<<<<<< HEAD
-<<<<<<< develop
->>>>>>> Update Front Blade
-=======
->>>>>>> Update Front Blade
-=======
->>>>>>> uploadPruebas2
     </form>
 @endsection

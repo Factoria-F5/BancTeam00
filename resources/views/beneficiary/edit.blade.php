@@ -15,31 +15,9 @@
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< develop
-<<<<<<< develop
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                  
-=======
-                    <a class="nav-link" href="#">Home</a>
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
->>>>>>> Update
-                  </li>
-<<<<<<< develop
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
->>>>>>> Update Front Blade
-=======
-                 
->>>>>>> Last Update Front
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
-                  </li>
-                 
->>>>>>> uploadPruebas2
                 </ul>
                 <div class="card-body">
                     @if (session('status'))

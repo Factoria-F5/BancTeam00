@@ -9,33 +9,13 @@
                 <div class="card-header">Dashboard Offer List</div>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                    <a class="nav-link active" href="{{ url('/offer') }}">Ofertes</a>
+                    <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
                   </li>
                   <li class="nav-item">
-<<<<<<< develop
-                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaris</a>
-=======
                     <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
                   <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< develop
-<<<<<<< develop
-<<<<<<< develop
-                    <a class="nav-link" href="#">Home</a>
->>>>>>> Update Front Blade
-=======
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
->>>>>>> Update
-=======
-                    <a class="nav-link" href="#">Home</a>
->>>>>>> Update Front Blade
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
->>>>>>> Update
-=======
-                    <a class="nav-link" href="{{ url('/') }}">Home</a>
->>>>>>> uploadPruebas2
                   </li>
                   
                 </ul>
@@ -45,7 +25,7 @@
                             {{ session('status') }}
                         </div>
                     
-                    Estàs ingresat!
+                    You are logged in!
                     @endif
                 </div>
             </div>
@@ -100,13 +80,6 @@
                     <form action="{{ route('offer.destroy', $offer->id)}}" method="post">
                       @csrf
                       @method('DELETE')
-<<<<<<< HEAD
-<<<<<<< develop
-<<<<<<< develop
-=======
->>>>>>> Last Update Front
-=======
->>>>>>> uploadPruebas2
 
                       <!-- Button trigger modal 
 <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" >
@@ -138,14 +111,6 @@
 
 
 
-<<<<<<< HEAD
-<<<<<<< develop
-=======
->>>>>>> Update Front Blade
-=======
->>>>>>> Last Update Front
-=======
->>>>>>> uploadPruebas2
                       <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
