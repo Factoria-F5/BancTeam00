@@ -64,18 +64,6 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-            .btn-primary {
-                color: #fff;
-                background-color: #F7941e;
-                border-color: #F7941e;
-                }
-            
-             .btn-primary:hover {
-                color: #fff;
-                background-color: rgb(248, 169, 72);
-                border-color: rgb(248, 169, 72);
-                }
         </style>
     </head>
     <body>
@@ -100,8 +88,8 @@
                 </div>
 
                 <div class="links">
-                    <button class="btn btn-primary" type="submit">Vull donar material</button>
-                    <button class="btn btn-primary" type="submit">Necessito material</button>
+                    <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
+                    <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
                 </div>
             </div>
         </div>

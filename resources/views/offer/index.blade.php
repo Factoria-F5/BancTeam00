@@ -6,14 +6,18 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Dashboard Offer List</div>
                 <ul class="nav nav-pills">
                   <li class="nav-item">
-                    <a class="nav-link active" href="{{ url('/offer') }}">Ofertes</a>
+                    <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaris</a>
+                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                  
                 </ul>
                 <div class="card-body">
                     @if (session('status'))
@@ -21,7 +25,7 @@
                             {{ session('status') }}
                         </div>
                     
-                    Estàs ingresat!
+                    You are logged in!
                     @endif
                 </div>
             </div>
@@ -34,7 +38,7 @@
     <div class="col-sm-12">
         <h1 class="display-3">Offers</h1>
         <div>
-            <a style="margin: 19px;" href="{{ route('offer.create')}}" class="btn btn-primary">New offer</a>
+            <a style="margin: 19px;" href="{{ route('offer.create')}}" class="btn btn-outline-primary">New offer</a>
         </div>     
       <table class="table table-striped">
         <thead>
@@ -70,13 +74,44 @@
                 <td>{{$offer->beneficiary}}</td>
                 <td>{{$offer->companyOffer}}</td>
                 <td>
-                    <a href="{{ route('offer.edit',$offer->id)}}" class="btn btn-primary">Edit</a>
+                    <a href="{{ route('offer.edit',$offer->id)}}" class="btn btn-outline-primary">Edit</a>
                 </td>
                 <td>
                     <form action="{{ route('offer.destroy', $offer->id)}}" method="post">
                       @csrf
                       @method('DELETE')
-                      <button class="btn btn-danger" type="submit">Delete</button>
+
+                      <!-- Button trigger modal 
+<button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#exampleModal" >
+  Delete
+</button> -->
+
+<!-- Modal
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Warning !!!</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+<h4>Be careful about deleting a record</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline-danger">Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+
+                      <button class="btn btn-outline-danger" type="submit">Delete</button>
                     </form>
                 </td>
             </tr>

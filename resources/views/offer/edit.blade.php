@@ -1,5 +1,37 @@
 @extends('base') 
+@extends('layouts.app')
 
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">Dashboard Edit Offer</div>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/beneficiary') }}">Beneficiaries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/') }}">Home</a>
+                  </li>
+                </ul>
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    
+                    You are logged in!
+                    @endif
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
 @section('main')
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
