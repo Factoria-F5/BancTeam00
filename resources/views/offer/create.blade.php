@@ -2,11 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">Dashboard Create New Offer</div>
+<nav class="justify-content-center navbar navbar-light">
                 <ul class="nav nav-pills">
                   <li class="nav-item">
                     <a class="nav-link active" href="{{ url('/offer') }}">Offers</a>
@@ -18,7 +14,7 @@
                     <a class="nav-link" href="{{ url('/') }}">Home</a>
                   </li>
                 </ul>
-                <div class="card-body">
+                <div>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
@@ -27,10 +23,7 @@
                     You are logged in!
                     @endif
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </nav>
 @endsection
 
 @section('main')

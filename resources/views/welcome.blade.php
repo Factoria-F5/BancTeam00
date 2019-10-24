@@ -67,7 +67,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <nav class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -82,17 +82,21 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
+            <div class="row justify-content-center mx-auto">
+                <div>
                     <img src="{{ asset('images/logo_pontsolidari.jpg')}}" width="600" alt="Pont Solidari">
                 </div>
-
-                <div class="links">
+                <h3 class="text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet suscipit tempor. Nunc gravida non massa et fermentum. Ut sit amet libero hendrerit, tincidunt orci ac, elementum sem. </h3>
+                <!-- <div class="links mt-6 ml-6">
                     <a href="{{ url('/offer/create') }}"><button class="btn btn-outline-info" type="submit">Vull donar material </button></a>
                     <a href="{{ url('/beneficiary/create') }}"><button class="btn btn-outline-info" type="submit">Necessito material</button></a>
-                </div>
+                </div> -->
             </div>
-        </div>
+            <div>
+                
+                
+            </div>
+        </nav>
 
         <footer>
             <div class="bg-dark text-white">
